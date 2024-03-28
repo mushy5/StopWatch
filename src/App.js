@@ -20,7 +20,7 @@ function App() {
   const formatTime = (secs)=>{
     const mins = Math.floor(secs/60);
     const remainingSec = secs%60;
-    return `${mins} : ${remainingSec < 10 ? '0' : ''}${remainingSec}`;
+    return `${mins}:${remainingSec < 10 ? '0' : ''}${remainingSec}`;
   }
 
   const toggleStart = ()=>{
